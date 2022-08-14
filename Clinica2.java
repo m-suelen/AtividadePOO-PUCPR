@@ -94,12 +94,12 @@ public class Clinica1 {
 	public static void main(String[] args) {
 		Clinica1 cli  = new Clinica1();
 
-		Cavalo pe_de_pano   = new Cavalo("P� de Pano",   "Puro Sangue", "Ana");
+		Cavalo pe_de_pano = new Cavalo("P� de Pano",   "Puro Sangue", "Ana");
 		Cavalo Alasao = new Cavalo("Alas�o", "Manga larga", "Ana");
-		Cachorro  Jordan      = new Cachorro ("Jordan","Border Collie", "Carlos");
-		Cachorro  Lico     = new Cachorro ("Lico", "Liasa", "Carlos");
-		Passaro  Piu_piu      = new Passaro ("Piu Piu","strigilatus", "Valdir");
-		Passaro  pica_pau     = new Passaro ("Pica Pau", "Pica Pau", "Valdir");
+		Cachorro  Jordan = new Cachorro ("Jordan","Border Collie", "Carlos");
+		Cachorro  Lico = new Cachorro ("Lico", "Liasa", "Carlos");
+		Passaro  Piu_piu = new Passaro ("Piu Piu","strigilatus", "Valdir");
+		Passaro  pica_pau = new Passaro ("Pica Pau", "Pica Pau", "Valdir");
 		
 		
 		cli.adicionaAnimal(pe_de_pano);

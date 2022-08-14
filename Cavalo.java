@@ -1,4 +1,5 @@
 package Clinica;
+
 public class Cavalo extends Animal {
 
 		private static final long serialVersionUID = 1L;

@@ -120,7 +120,7 @@ package Clinica;
 
 			String menu = "";
 			String entrada;
-			int    opc1, opc2;
+			int opc1, opc2;
 
 			do {
 				menu = "Controle Clinica\n" +
@@ -153,7 +153,7 @@ package Clinica;
 					case 3: Animais.add((Animal)lePassaro());
 					break;
 					default: 
-						JOptionPane.showMessageDialog(null,"Animal  para entrada N�O escolhido!");
+						JOptionPane.showMessageDialog(null,"Animal para entrada N�O escolhido!");
 					}
 					break;
 				case 2: // Exibir dados
